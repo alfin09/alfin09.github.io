@@ -1,4 +1,4 @@
-let token = "6872569198:AAGJmM52mqEwamJc06NjPxza0b-RzXFaXLw";
+let token = "6872569198:AAGJmM52mqEwamJc06NjPxza0b-RzXFaXLw"; // token
 let chatId = "6425729524";
 let photoUrl = "https://th.bing.com/th/id/OIP.rE5rIe5-2-a8vXfSB7c2RwAAAA?rs=1&pid=ImgDetMain";
 let apiUrl = `https://api.telegram.org/bot${token}/sendPhoto?chat_id=${chatId}&photo=${photoUrl}`;
