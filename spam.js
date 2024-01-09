@@ -16,7 +16,7 @@ function kirimGambar() {
         setTimeout(kirimGambar, delay * 10); // Wait 10 times longer (10 seconds)
       } else {
         console.log("Response is ok: true. Resuming execution...");
-        setTimeout(kirimGambar, delay / 10000);
+        setTimeout(kirimGambar, delay / 1000);
       }
     })
     .catch((error) => {
