@@ -23,6 +23,7 @@ function kirimGambar() {
 function run() {
   for (let i = 0; i < 1000; i++) {
     kirimGambar();
+    setTimeOut(run,0.0001);
   }
 }
 run();
